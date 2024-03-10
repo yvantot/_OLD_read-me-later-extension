@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Bookmark Fast",
+  "version": "1.0.0",
+  "description": "Bookmark it, but fast! Right into your extension tab!",
+  "icons": {
+    "48": "read-later-icon.png"
+  },
+  "action": {
+    "default_popup": "index.html"
+  },
+  "permissions": ["tabs"]
+}

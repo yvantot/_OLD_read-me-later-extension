@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  color: rgb(66, 70, 87);
+  overflow-y: scroll;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+main {
+  display: inline-block;
+  min-width: 350px;
+  min-height: 200px;
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+  max-height: 400px;
+  overflow-y: scroll;
+}
+
+#header {
+  font-family: 'Courier New', Courier, monospace;
+  margin-bottom: 10px;
+}
+
+h1 {
+  display: inline;
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-align: start;
+}
+
+#copyright {
+  font-size: 0.9rem;
+  display: inline;
+}
+
+#input-el {
+  padding: 2px 5px;
+  border-radius: 3px;
+}
+
+#input-el,
+#button-el {
+  border: none;
+  box-shadow: 0px 1px 2px rgb(90, 92, 126);
+  outline: none;
+}
+
+#clear-el {
+  background-color: rgb(230, 92, 92);
+  border: none;
+  box-shadow: 0px 1px 2px rgb(54, 55, 77);
+}
+
+#clear-el3 {
+  background-color: rgb(115, 226, 105);
+  border: none;
+  box-shadow: 0px 1px 2px rgb(54, 55, 77);
+  display: none;
+}
+
+#clear-el2 {
+  background-color: rgb(226, 30, 30);
+  border: none;
+  box-shadow: 0px 1px 2px rgb(54, 55, 77);
+  display: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.favicon {
+  position: absolute;
+  right: 23px;
+  padding: 2px;
+  background-color: rgb(224, 224, 224);
+  border-radius: 3px;
+}
+
+a {
+  word-break: break-all;
+  text-align: start;
+  display: block;
+  margin: 5px 0;
+  text-overflow: ellipsis;
+  text-decoration: inherit;
+  color: inherit;
+  font-size: 0.8rem;
+  padding: 5px 50px 5px 5px;
+  border-radius: 5px;
+  background-color: white;
+  min-height: 25px;
+  background-color: rgb(240, 240, 240);
+}
+
+a:hover {
+  background-color: rgb(255, 255, 255);
+}
+
+main > button {
+  font-family: inherit;
+  margin-left: 5px;
+  background-color: rgb(115, 226, 105);
+  color: rgb(255, 255, 255);
+  padding: 5px;
+  border-radius: 5px;
+}
+
+#empty-container {
+  text-align: start;
+}
+
+.empty-button {
+  display: inline-block;
+  margin-top: 10px;
+  border-radius: 10px;
+  background-color: rgb(240, 240, 240);
+}
+
+#empty {
+  height: 20px;
+  width: 100%;
+}
+
+#empty1 {
+  height: 20px;
+  width: 20%;
+}
+
+#empty2 {
+  height: 20px;
+  width: 78%;
+}
+
+#empty3 {
+  height: 20px;
+  width: 100%;
+}
+
+#empty4 {
+  height: 20px;
+  width: 100%;
+}
+
+li {
+  font-family: monospace;
+  position: relative;
+}
+
+.delete-btn {
+  border: none;
+  background-color: rgb(231, 97, 97);
+  padding: 10px;
+  border-radius: 3px;
+  color: white;
+  right: 0px;
+  top: 0px;
+  position: absolute;
+  z-index: 2;
+  font-weight: bold;
+}
+
+.delete-btn:hover {
+  background-color: rgb(231, 59, 59);
+}
